@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'guard'
-gem 'guard-motion'
+gem 'sugarcube'
+
+group :development do
+  gem 'guard'
+  gem 'guard-motion'
+end
