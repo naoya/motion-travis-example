@@ -1,6 +1,8 @@
 # A sample Guardfile
 # More info at https://github.com/guard/guard#readme
 
+notification :tmux
+
 guard 'motion' do
   watch(%r{^spec/.+_spec\.rb$})
 

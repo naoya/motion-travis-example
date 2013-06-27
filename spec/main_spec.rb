@@ -3,7 +3,7 @@ describe "Application 'Hello'" do
     @app = UIApplication.sharedApplication
   end
 
-  it "has one window" do
-    @app.windows.size.should == 1
+  it "has no window under testing" do
+    @app.windows.size.should == 0
   end
 end
