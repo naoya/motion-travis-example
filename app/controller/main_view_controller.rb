@@ -5,10 +5,6 @@ class MainViewController < UIViewController
 
     self.view.backgroundColor = UIColor.whiteColor
 
-    # @label = UILabel.new
-    # @label.frame = [[10, 10], [320, 20]]
-    # @label.text = "Hello, RubyMotion!"
-
     @button = UIButton.rounded_rect.tap do |b|
       b.setTitle('Hello, RubyMotion!', forState:UIControlStateNormal)
       b.accessibilityLabel = "Hello Button"

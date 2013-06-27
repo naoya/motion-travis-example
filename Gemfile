@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'sugarcube'
+gem 'awesome_print_motion'
+gem 'webstub'
+# gem 'bubble-wrap', :require => 'bubble-wrap/http'
+gem 'bubble-wrap'
 
 group :development do
   gem 'guard'
